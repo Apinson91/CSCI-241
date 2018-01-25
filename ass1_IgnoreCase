@@ -1,0 +1,10 @@
+	for(unasigned i=0; i<strlen(str1); i++) 
+   	{
+	   if (isupper(str1[i])) 
+	str1[i]=tolower(str1[i]);
+	}
+	for(unasigned i=0; i<strlen(str2); i++) 
+   	{
+	   if (isupper(str2[i])) 
+	str2[i]=tolower(str2[i]);
+	}
